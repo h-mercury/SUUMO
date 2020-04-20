@@ -72,8 +72,8 @@ import pandas as pd
 
 df = pd.DataFrame(mapped, columns = ['Building Name' , 'Rent', 'Deposit', 'Reikin', 'Shikibiki', 'Hoshokin'])
 
-#change file location to safe the to-be-exported excel file
-df.to_csv(r'D:\Nagoya Uni\Y3 S2\3(F4) Doi Seminar\export_dataframe.csv', encoding='utf-8-sig', index = False, header=True)
+#add in file location between ' ' to safe the to-be-exported excel file
+df.to_csv(r' ', encoding='utf-8-sig', index = False, header=True)
 
 
 
